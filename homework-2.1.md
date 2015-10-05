@@ -127,4 +127,5 @@ function updateRoster() {
   async.map(
     sockets,
     function (socket, callback) {
-      socket.get('name', callback);
+      socket.get('name', callback)
+// I'm b

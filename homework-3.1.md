@@ -13,7 +13,7 @@
 //bolean 2
 //path file;dss/Gruntfile.js
 // jshintrc : true
-//end
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -30,7 +30,7 @@ document.getElementById("demo").innerHTML = person.FirstName + person.LastName +
 
 </body>
 </html>
-
+//
 
 
 
@@ -50,3 +50,5 @@ document.getElementById("demo").innerHTML = person.FirstName + person.LastName +
           name: name,
           text: text
         };
+        
+        //end

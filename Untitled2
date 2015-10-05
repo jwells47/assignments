@@ -1,0 +1,6 @@
+//Define your terms
+/*definition of a list:
+  its always ordered, can ussually retern elements or items by numeric index stsrting from zero, 
+  and might not allow modification of values (immmutable). /*
+  
+// lists are 0 based [0]

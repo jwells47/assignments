@@ -1,4 +1,4 @@
-//Week 3 Homework 
+//Week 2 Homework 
 /*Answers to: Use the Manuel, Luke
 Question 1:  If no arguments are provided the constructor creates a Javascript object for the current date and time according to system settings.
 Question 2:  The Math ceil() funtion retuns the smallest integer greater than or equal to a given number.
