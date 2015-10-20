@@ -14,19 +14,7 @@
 //path file;dss/Gruntfile.js
 // jshintrc : true
 
-<!DOCTYPE html>
-<html>
-<body>
-<p>creating JavaScript object</P>
 
-<p id="demo"></p>
-
-<script>
-var person = {FirstName:"John", LastName:"Wells", Age:47, EyeColor:"Brown"};
-
-document.getElementById("demo").innerHTML = person.FirstName + person.LastName + "is" + person.Age + "old today.";
-
-</script>
 
 </body>
 </html>
