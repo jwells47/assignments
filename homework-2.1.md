@@ -39,28 +39,28 @@ When you're done editing this file, save it, commit it, and push it to your "ass
 //
 var http = require('http');
     //variable: http
-    //literal: require
-    //value: ('http')
+    //funtion: require
+    //string: ('http')
 
 var path = require('path');
    //variabe: path
-   //literal: require
-   //value:('path")
+   //function: require
+   //string:('path")
    
 var async = require('async');
    //variable: async
-   //literal: require
-   //value:('async')
+   //function: require
+   //string:('async')
    
 var socketio = require('socket.io');
    //variable: socketio
-   //literal: require
-   //value ('socket.io')
+   //function: require
+   //string: ('socket.io')
    
 var express = require('express');
    //variable: express
-   //literal: require
-   //value ('express');
+   //funtion: require
+   //string: ('express');
    
 //
 // ## SimpleServer `SimpleServer(obj)`
@@ -75,12 +75,11 @@ var io = socketio.listen(server);
 router.use(express.static(path.resolve(__dirname, 'client')));
    //operator
    
-var messages = [];
-   //variable: messages
-   //function: built-in-object
+var messages = []; this is an array
+   //variable: message
    //
-var sockets = [];
-   variable
+var sockets = []; this is an array
+   variable: sockets
 
 io.on('connection', function (socket) {
     messages.forEach(function (data) {
